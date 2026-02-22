@@ -1,0 +1,3 @@
+/*
+wap in C that compares first n characters of 
+*/

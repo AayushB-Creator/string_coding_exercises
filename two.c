@@ -14,6 +14,8 @@ void coNcat(char * str1, char * str2, int n){
         str2++;
         n--;
     }
+    *str1='.';//to add my signature style!
+    str1++;
     *str1='\0';
 }
 
