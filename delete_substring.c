@@ -1,3 +1,4 @@
+//wap to delete a substring from a text
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
