@@ -11,7 +11,7 @@ int main(){
     char word[] = "the";
     int count =0;
 
-    for(int i=0;i<strlen(text)-3;i++){
+    for(int i=0;i<=strlen(text)-3;i++){
         if(tolower(text[i])=='t' && tolower(text[i+1])=='h' && tolower(text[i+2])=='e'){
             if((i==0 || !isalpha(text[i-1])) && !(isalpha(text[i+3]))){
                 count++;
