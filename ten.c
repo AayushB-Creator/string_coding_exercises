@@ -5,10 +5,8 @@ wap to find the last instance of occurrence of a sub-string within a string
 #include <string.h>
 #include <ctype.h>
 int main(){
-   
-    char text[] = "abc wirld world";
-    char str[] = "world";
-
+    char text[] = "hello world world";
+    char str[]  = "world";
     int max = strlen(text)-strlen(str)+1;
     int index= -1;
     int found =1;
@@ -26,7 +24,6 @@ int main(){
         if(found != 0) {
             index=i;
             i++;
-            break;//just remove this break if wanting for last occurrence
         }
     }
     
